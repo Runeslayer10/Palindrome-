@@ -6,10 +6,12 @@
 
 package palindrome;
 import javax.swing.*;
+
 /**
  *
  * @author blhad3491
  */
+
 public class Palindrome {
 
     /**
@@ -20,9 +22,15 @@ public class Palindrome {
                + "same forward and backward, it is called a palindrome. \n"
        +"This program is made to detect if a word is a palindrome.\n \n"+ 
                "Please enter a word to be checked.");
-       
+       String backwardsWord = word;
+       for (int pos= word.length()-1; pos >=0; pos--){  
+           backwardsWord += word.charAt(pos);
         
-
+       }
+       if (word.equalsIgnoreCase(backwardsWord)){
+           // word is a palindrome
+       }
+       
     }
     
 }
