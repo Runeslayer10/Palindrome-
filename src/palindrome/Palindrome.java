@@ -30,7 +30,7 @@ public class Palindrome {
            JOptionPane.showMessageDialog(null, word + " "+ "in reverse is"+ " "+ backwardsWord +"\n"+"It IS a palindrome.");
         }else if(word != backwardsWord){ // if it isn't spelled the same backwords, excute
            JOptionPane.showMessageDialog(null, word + " "+ "in reverse is"+ " "+ backwardsWord +"\n"+"It IS NOT a palindrome.");    
-           // not a palindome
+           // not a palindome.
         }
     }  
 }
